@@ -22,7 +22,7 @@ Page({
     },
 
     // 获取option数据
-    getSexOption: function() { 
+    getSexOption: function() {
         var that = this;
 
         // 这里根据云开发获取指定记录
@@ -31,7 +31,7 @@ Page({
         }).get({
             success: function(res) {
                 console.log(res.data[0])
-                that.init_chart(res.data[0])  // 获取第一条记录 
+                that.init_chart(res.data[0])  // 获取第一条记录
             }
         })
     },
@@ -42,7 +42,7 @@ Page({
 
         var strMap = obj2StrMap(data.sex) // 因为云开发不能存储map对象，所以存储的时候将map转换为obj，这里需要转换回map
         console.log(strMap) // Map(2) {"1" => 15, "2" => 17}
-        
+
         var sexData = strMap2Array(strMap) // 转换为array
         console.log(sexData) // (2) [{value: 15, name: "男生"}, { value: 17, name: "女生" }]
 

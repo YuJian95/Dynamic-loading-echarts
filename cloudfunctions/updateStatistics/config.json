@@ -1,9 +1,0 @@
-{
-    "triggers":[
-        {
-            "name": "updateDataAnalysis",
-            "type":"timer",
-            "config":"0 59 23 * * * *"
-        }
-    ]
-}
