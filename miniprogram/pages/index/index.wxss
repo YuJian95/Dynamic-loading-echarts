@@ -1,0 +1,12 @@
+.content {
+    width: 100%;
+    background-color: #F2F2F2;
+    overflow-y: auto;
+}
+#mychart-one {
+    position: absolute; 
+    top: 0;
+    height: 50%;
+    left: 0;
+    right: 0;
+}

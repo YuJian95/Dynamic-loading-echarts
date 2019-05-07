@@ -1,0 +1,3 @@
+<view class="content">
+    <ec-canvas id="mychart-one" canvas-id="mychart-multi-one" ec="{{ ecSexChart}}"></ec-canvas>
+</view>
