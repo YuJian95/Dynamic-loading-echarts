@@ -1,2 +1,6 @@
 # Dynamic-loading-echarts
-WeChat applet dynamic loading echarts charts.(微信小程序动态加载echarts图表.)
+A demo of WeChat applet **dynamic loading echarts** .
+
+### 描述
+
+通过云开发获取用户数据,动态的显示图表信息.
